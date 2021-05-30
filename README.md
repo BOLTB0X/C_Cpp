@@ -1,4 +1,3 @@
-# C_Cpp
 C/C++ 기본 문법
 
 IDE:Visual Studio 2019

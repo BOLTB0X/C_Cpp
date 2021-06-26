@@ -1,4 +1,4 @@
-C/C++,Python 기본 문법, 자료구조 그리고 알고리즘 
+C/C++/C#,Python 기본 문법
 
 IDE:Visual Studio 2019, Dev C++, Pycharm, Jupyter Notebook 
 

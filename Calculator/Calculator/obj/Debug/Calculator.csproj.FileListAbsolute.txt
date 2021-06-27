@@ -1,0 +1,10 @@
+C:\Visual Studio 2019\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Visual Studio 2019\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Visual Studio 2019\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Visual Studio 2019\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+C:\Visual Studio 2019\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Visual Studio 2019\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Visual Studio 2019\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Visual Studio 2019\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Visual Studio 2019\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Visual Studio 2019\Calculator\Calculator\obj\Debug\Calculator.Calculator.resources

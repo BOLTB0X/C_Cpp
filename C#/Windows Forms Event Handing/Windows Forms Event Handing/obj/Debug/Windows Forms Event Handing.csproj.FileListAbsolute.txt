@@ -1,0 +1,11 @@
+C:\Visual Studio 2019\Windows Forms Event Handing\Windows Forms Event Handing\obj\Debug\Windows Forms Event Handing.csproj.AssemblyReference.cache
+C:\Visual Studio 2019\Windows Forms Event Handing\Windows Forms Event Handing\obj\Debug\Windows_Forms_Event_Handing.ChildForm.resources
+C:\Visual Studio 2019\Windows Forms Event Handing\Windows Forms Event Handing\obj\Debug\Windows_Forms_Event_Handing.ParentForm.resources
+C:\Visual Studio 2019\Windows Forms Event Handing\Windows Forms Event Handing\obj\Debug\Windows_Forms_Event_Handing.Properties.Resources.resources
+C:\Visual Studio 2019\Windows Forms Event Handing\Windows Forms Event Handing\obj\Debug\Windows Forms Event Handing.csproj.GenerateResource.cache
+C:\Visual Studio 2019\Windows Forms Event Handing\Windows Forms Event Handing\obj\Debug\Windows Forms Event Handing.csproj.CoreCompileInputs.cache
+C:\Visual Studio 2019\Windows Forms Event Handing\Windows Forms Event Handing\bin\Debug\Windows Forms Event Handing.exe.config
+C:\Visual Studio 2019\Windows Forms Event Handing\Windows Forms Event Handing\bin\Debug\Windows Forms Event Handing.exe
+C:\Visual Studio 2019\Windows Forms Event Handing\Windows Forms Event Handing\bin\Debug\Windows Forms Event Handing.pdb
+C:\Visual Studio 2019\Windows Forms Event Handing\Windows Forms Event Handing\obj\Debug\Windows Forms Event Handing.exe
+C:\Visual Studio 2019\Windows Forms Event Handing\Windows Forms Event Handing\obj\Debug\Windows Forms Event Handing.pdb

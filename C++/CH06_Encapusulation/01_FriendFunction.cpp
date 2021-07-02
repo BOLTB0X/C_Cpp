@@ -2,9 +2,9 @@
 #include <string>
 
 using namespace std;
-//ÇÁ·»µå Å°¿öµå¸¦ ÀÌ¿ëÇÏ¸é Æ¯Á¤ °´Ã¼ÀÇ ¸ğµç ¸â¹ö(private)±îÁö Á¢±Ù °¡´É
-//Ä¸½¶È­¶õ °ü·ÃµÈ ÇÔ¼ö´Â ¸â¹öµéÀº µÇµµ·Ï ÇÏ³ªÀÇ Å¬·¡½º¿¡¼­ °ü¸® ¶Ç´Â
-// °°ÀÌ ½ÇÇàµÇ¾î¾ß ÇÏ´Â ±â´Éµéµµ ÇÏ³ªÀÇ Å¬·¡½º¿¡ ³Ö¾î¼­ °¢ °´Ã¼°¡ ÀÀÁıµÈ ±â´ÉÀ» °¡Áú ¼ö ÀÖµµ·Ï ÇÏ´Â °Í
+//í”„ë Œë“œ í‚¤ì›Œë“œë¥¼ ì´ìš©í•˜ë©´ íŠ¹ì • ê°ì²´ì˜ ëª¨ë“  ë©¤ë²„(private)ê¹Œì§€ ì ‘ê·¼ ê°€ëŠ¥
+//ìº¡ìŠí™”ë€ ê´€ë ¨ëœ í•¨ìˆ˜ëŠ” ë©¤ë²„ë“¤ì€ ë˜ë„ë¡ í•˜ë‚˜ì˜ í´ë˜ìŠ¤ì—ì„œ ê´€ë¦¬ ë˜ëŠ”
+// ê°™ì´ ì‹¤í–‰ë˜ì–´ì•¼ í•˜ëŠ” ê¸°ëŠ¥ë“¤ë„ í•˜ë‚˜ì˜ í´ë˜ìŠ¤ì— ë„£ì–´ì„œ ê° ê°ì²´ê°€ ì‘ì§‘ëœ ê¸°ëŠ¥ì„ ê°€ì§ˆ ìˆ˜ ìˆë„ë¡ í•˜ëŠ” ê²ƒ
 
 class Student {
 private:
@@ -12,16 +12,18 @@ private:
 	string name;
 public:
 	Student(int studentID,string name): studentID(studentID),name(name) { }
-	//ÇÁ·»µå Å°¿öµéÀ» ºÙ¿© private ¸â¹ö º¯¼ö¿¡ Á¢±Ù
+	//í”„ë Œë“œ í‚¤ì›Œë“¤ì„ ë¶™ì—¬ private ë©¤ë²„ ë³€ìˆ˜ì— ì ‘ê·¼
 	friend Student operator +(const Student& student, const Student& other) {
 		return Student(student.studentID, student.name + " & " + other.name);
-	//friend Å°¿öµå¸¦ ÀÌ¿ëÇØ ÀÌ¸§¿¡ Á¢±Ù
+	//friend í‚¤ì›Œë“œë¥¼ ì´ìš©í•´ ì´ë¦„ì— ì ‘ê·¼
 	}
-	void showName() { cout << "ÀÌ¸§: " << name << "\n"; }
+	void showName() { 
+		cout << "ì´ë¦„: " << name << "\n"; 
+	}
 };
 
 int main(void) {
-	Student student(1, "ÀÌ°æÇå");
+	Student student(1, "í•­ìš°");
 	Student result = student + student;
 	result.showName();
 	system("pause");

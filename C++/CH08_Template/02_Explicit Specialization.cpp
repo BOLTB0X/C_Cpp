@@ -11,8 +11,8 @@ void change(T& a, T& b) {
 	b = temp;
 }
 
-template <> void change<int>(int& a, int& b) { //¸í½ÃÀûÀ¸·Î intÀ» ÁöÁ¤
-	cout << "Á¤¼öÇü µ¥ÀÌÅÍ¸¦ ±³Ã¼ÇÕ´Ï´Ù.\n";
+template <> void change<int>(int& a, int& b) { //ëª…ì‹œì ìœ¼ë¡œ intì„ ì§€ì •
+	cout << "ì •ìˆ˜í˜• ë°ì´í„°ë¥¼ êµì²´í•©ë‹ˆë‹¤.\n";
 	int temp;
 	temp = a;
 	a = b;
@@ -20,8 +20,8 @@ template <> void change<int>(int& a, int& b) { //¸í½ÃÀûÀ¸·Î intÀ» ÁöÁ¤
 }
 
 int main(void) {
-	string a = "ÀÌ°æÇå";
-	string b = "È«±æµ¿";
+	string a = "í•­ìš°";
+	string b = "ìœ ë°©";
 	change(a, b);
 	cout << a << " : " << b << endl;
 	system("pause");

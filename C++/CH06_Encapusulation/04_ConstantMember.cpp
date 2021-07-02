@@ -14,7 +14,7 @@ public:
 	}
 	/*
 	void setId(int id) {
-		this->id=id //¿À·ù ¹ß»ı [¼öÁ¤ ºÒ°¡´É]
+		this->id=id //ì˜¤ë¥˜ ë°œìƒ [ìˆ˜ì • ë¶ˆê°€ëŠ¥]
 	}
 	*/
 };
@@ -22,9 +22,9 @@ public:
 int Person::count = 0;
 
 int main(void) {
-	Person p1(1,"ÀÌ°æÇå");
-	Person p2(2,"È«±æµ¿");
-	Person p3(3,"ÀÌ¼ø½Å");
-	cout << "»ç¶÷ÀÇ ¼ö: " << Person::count << "\n";
+	Person p1(1,"ì´ì‚¼ì‚¼");
+	Person p2(2,"í™ê¸¸ë™");
+	Person p3(3,"ì´ìˆœì‹ ");
+	cout << "ì‚¬ëŒì˜ ìˆ˜: " << Person::count << "\n";
 	system("pause");
 }

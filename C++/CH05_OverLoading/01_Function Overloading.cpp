@@ -7,15 +7,17 @@ class Person {
 private:
 	string name;
 public:
-	Person() { name = "ÀÌÀÏÀÏ"; }
+	Person() { name = "ì´ì¼ì¼"; }
 	Person(string name) : name(name) { }
-	void showName() { cout << "ÀÌ¸§: " << name << "\n"; }
+	void showName() { 
+		cout << "ì´ë¦„: " << name << "\n"; 
+	}
 };
 
 int main(void) {
 	Person person1;
-	person1.showName(); //µğÆúÆ®·Î Ãâ·Â
-	Person person2("ÀÌÀÌÀÌ");
-	person2.showName(); //ÇÔ¼ö ¿À¹ö·Îµù
+	person1.showName(); //ë””í´íŠ¸ë¡œ ì¶œë ¥
+	Person person2("ì´ì´ì´");
+	person2.showName(); //í•¨ìˆ˜ ì˜¤ë²„ë¡œë”©
 	system("pause");
 }

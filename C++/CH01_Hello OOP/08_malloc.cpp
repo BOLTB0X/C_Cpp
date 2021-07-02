@@ -5,14 +5,14 @@ using namespace std;
 
 int* arr;
 int main(void) {
-	arr = new int[SIZE]; //µ¿ÀûÇÒ´ç
+	arr = new int[SIZE]; //ë™ì í• ë‹¹ì‹œì‘
 	for (int i = 0; i < SIZE; i++) {
 		arr[i] = i;
 	}
 	for (int i = 0; i < SIZE; i++) {
 		cout << arr[i] << ' ';
 	}
-	delete arr; //ÇÒ´ç ÇØÁ¦
+	delete arr; //ë™ì í• ë‹¹ í•´ì œÂ¦
 	system("pause");
 	return 0;
 }

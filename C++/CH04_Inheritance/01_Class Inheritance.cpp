@@ -3,24 +3,25 @@
 
 using namespace std;
 
-//ºÎ¸ğÅ¬·¡½º Á¤ÀÇÇÏ±â
+//ë¶€ëª¨í´ë˜ìŠ¤ ì •ì˜í•˜ê¸°
 class Person {
 private:
 	string name;
 public:
-	Person(string name) : name(name) {} //ÃÊ±âÈ­
-	//¸É¹ö º¯¼ö nameÀº PersonÀ¸·Î ºÎÅÍ ¹°·Á¹ŞÀ½
+	Person(string name) : name(name) {} //ì´ˆê¸°í™”
+	//ë§´ë²„ ë³€ìˆ˜ nameì€ Personìœ¼ë¡œ ë¶€í„° ë¬¼ë ¤ë°›ìŒ
 	string getName() {
 		return name;
 	}
 	void showName() {
-		cout << "ÀÌ¸§: " << getName() << '\n';
+		cout << "ì´ë¦„: " << getName() << '\n';
 	}
 };
-//ÀÚ½Ä(ÆÄ»ı)Å¬·¡½º Á¤ÀÇ ¹× »ç¿ëÇÏ±â
-//ÀÚ½Ä Å¬·¡½ºÀÇ ÀÎ½ºÅÏ½º¸¦ ¸¸µé ¶§ °¡Àå ¸ÕÀú ºÎ¸ğÅ¬·¡½ºÀÇ »ı¼ºÀÚ°¡ È£Ãâ
-//ÀÌÈÄ¿¡ ÀÚ½ÄÅ¬·¡½ºÀÇ »ı¼ºÀÚ°¡ È£Ãâ
-// ¼ö¸íÀ» ´ÙÇßÀ» ¶§ ÀÚ½ÄÅ¬·¡½º°¡ ¸ÕÀú È£Ãâ 
+//ìì‹(íŒŒìƒ)í´ë˜ìŠ¤ ì •ì˜ ë° ì‚¬ìš©í•˜ê¸°
+//ìì‹ í´ë˜ìŠ¤ì˜ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ë§Œë“¤ ë•Œ ê°€ì¥ ë¨¼ì € ë¶€ëª¨í´ë˜ìŠ¤ì˜ ìƒì„±ìê°€ í˜¸ì¶œ
+//ì´í›„ì— ìì‹í´ë˜ìŠ¤ì˜ ìƒì„±ìê°€ í˜¸ì¶œ
+// ìˆ˜ëª…ì„ ë‹¤í–ˆì„ ë•Œ ìì‹í´ë˜ìŠ¤ê°€ ë¨¼ì € í˜¸ì¶œ
+
 class Student : Person {
 private:
 	int studentID;
@@ -28,15 +29,15 @@ public:
 	Student(int studentID, string name) : Person(name) {
 		this->studentID = studentID;
 	}
-	//name¿¡ ´ëÇÑ Á¤º¸°¡ ¾ø¾îµµ ¹°·Á¹Ş¾Æ¼­ »ç¿ë
+	//nameì— ëŒ€í•œ ì •ë³´ê°€ ì—†ì–´ë„ ë¬¼ë ¤ë°›ì•„ì„œ ì‚¬ìš©
 	void show() {
-		cout << "ÇĞ»ı ¹øÈ£: " << studentID << "\n";
-		cout << "ÇĞ»ı ÀÌ¸§: " << getName() << "\n";
+		cout << "í•™ìƒ ë²ˆí˜¸: " << studentID << "\n";
+		cout << "í•™ìƒ ì´ë¦„: " << getName() << "\n";
 	}
 };
 
 int main(void) {
-	Student student(1, "ÀÌ°æÇå");
+	Student student(1, "ì´ì‚¼ì‚¼");
 	student.show();
 	system("pause");
 }

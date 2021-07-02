@@ -1,6 +1,6 @@
-#include <iostream> //using À» ÀÌ¿ëÇØ Ç¥ÁØ ¶óÀÌºê·¯¸®(std) ¸ğµÎ »ç¿ëÇÏ°Ô ÇÔ
+#include <iostream> //using ì„ ì´ìš©í•´ í‘œì¤€ ë¼ì´ë¸ŒëŸ¬ë¦¬(std) ëª¨ë‘ ì‚¬ìš©í•˜ê²Œ í•¨
 #include <string>
-using namespace std;
+using namespace std; //í‘œì¤€ ë„¤ì„ìŠ¤í˜ì´ìŠ¤ë¥¼ ì‚¬ìš©í•˜ê² ë‹¤ëŠ” ì˜ë¯¸
 
 int main(void) {
 	string input;

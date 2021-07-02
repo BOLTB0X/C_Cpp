@@ -3,15 +3,15 @@
 
 using namespace std;
 
-struct student { //C ±¸Á¶Ã¼ ¼±¾ğ
+struct student { //C ë°©ì‹ êµ¬ì¡°ì²´
 	string name;
 	int score;
 };
 
 int main(void) {
 	struct student a;
-	a.name = "ÀÌÀÌÀÌ";
+	a.name = "ì•„ë¬´ê°œ";
 	a.score = 100;
-	cout << a.name << ":" << a.score << "Á¡\n";
+	cout << a.name << ":" << a.score << "ÃÂ¡\n";
 	system("pause");
 }

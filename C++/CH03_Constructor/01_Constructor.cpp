@@ -3,7 +3,7 @@
 
 using namespace std;
 
-class Character { //Ä³¸¯ÅÍ Å¬·¡½º
+class Character { //ìºë¦­ì´ë¼ëŠ” í´ë˜ìŠ¤ ì •ì˜
 private:
 	string name;
 	int ragePoint;
@@ -22,7 +22,7 @@ public:
 };
 
 int main(void) {
-	Character character = Character("°íºí¸°", 50, 10);
+	Character character = Character("ëª¬ìŠ¤í„°", 50, 10);
 	character.show();
 	system("pause");
 }

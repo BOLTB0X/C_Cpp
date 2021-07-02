@@ -3,8 +3,8 @@
 
 using namespace std;
 
-template <typename T> //ÀÚ·áÇü¿¡ ±¸ÇØX
-//ÇÑ¹ø ÀÎ½ºÅÏ½º¸¦ »ı¼ºÇÏ¸é ÂŞ¿ì¿ì¿í ¾¸
+template <typename T> //ìë£Œí˜•ì— êµ¬í•´X
+//í•œë²ˆ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ìƒì„±í•˜ë©´ ì­ˆìš°ìš°ìš± ì”€
 void change(T& a, T& b) {
 	T temp;
 	temp = a;
@@ -13,8 +13,8 @@ void change(T& a, T& b) {
 }
 
 int main(void) {
-	string a = "ÀÌ°æÇå";
-	string b = "È«±æµ¿";
+	string a = "í•œì‹ ";
+	string b = "ìœ ë°©";
 	change(a, b);
 	cout << a << " : " << b << endl;
 	system("pause");
